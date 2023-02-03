@@ -121,3 +121,9 @@ for (i,j,k) in itertools.combinations(range(n**2),3):
 df = dimod.ExactPolySolver().sample_hubo(int_dict).to_pandas_dataframe()
 
 sample_to_img(df)
+
+
+
+
+
+check_OLS(A,k_k)
