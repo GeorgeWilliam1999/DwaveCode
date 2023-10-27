@@ -1,0 +1,16 @@
+latticeSize = 4
+colours = ['O','H']
+colour_strength = 5
+bond_colour_strength = 5
+Nc = {'O' : 8, 'H' : 4}
+site_strength = 10
+L = 8
+colour_strength = 10
+bond_strength = 10
+CL2 = 10
+Csa = 1
+CL3 = 5
+CL4 = 5
+C4L = 10
+BondLinearCostFunction = same_colour_cost
+BC = 'Default'
