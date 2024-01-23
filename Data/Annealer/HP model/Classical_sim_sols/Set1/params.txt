@@ -1,0 +1,22 @@
+# Problem setup
+
+
+latticeSize = 5
+n = latticeSize
+colours = ['H','P']
+C_col = 5
+bond_colour_strength = 5
+
+Nc = {'H' : 8, 'P' : 4}
+A_mon = 10
+L = 13
+bond_strength = 10
+CL2 = 10
+Csa = 1
+CL3 = 5
+CL4 = 5
+C4L = 10
+BondLinearCostFunction = same_colour_cost
+BC = 'Default'
+
+Colourful_Random_walk = cRW(latticeSize,colours,C_col,bond_colour_strength,Nc,A_mon,L,bond_strength,CL2,Csa,CL3,CL4,C4L,HP_model_cost,BC)
